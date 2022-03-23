@@ -28,7 +28,7 @@ public class BoardController {
         logger.debug("## boardList");
         
         
-        
+        // 2022203232449 controller 주석 추가
         
         
         return "board/boardList";
