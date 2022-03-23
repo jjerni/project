@@ -42,6 +42,7 @@ public class BoardController {
     	logger.debug("######## getCurrentPageNo: "+ boardVO.getCurrentPageNo());
     	logger.debug("######## getFunctionName : "+ boardVO.getFunctionName());
         ResultUtil resultUtil = boardService.getBoardList(boardVO);
+        
         return resultUtil;
     }
     
