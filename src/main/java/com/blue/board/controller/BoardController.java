@@ -27,6 +27,9 @@ public class BoardController {
     public String getBoardList(HttpServletRequest request, HttpServletResponse response) throws Exception{
         logger.debug("## boardList");
         
+        //라인추가 수정함_20220323
+        
+        
         
         return "board/boardList";
     }
