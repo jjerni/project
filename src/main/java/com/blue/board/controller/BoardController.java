@@ -26,6 +26,8 @@ public class BoardController {
     @RequestMapping( value = "/boardList")
     public String getBoardList(HttpServletRequest request, HttpServletResponse response) throws Exception{
         logger.debug("## boardList");
+        
+        
         return "board/boardList";
     }
  
