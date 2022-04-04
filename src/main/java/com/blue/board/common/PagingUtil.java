@@ -16,7 +16,7 @@ public class PagingUtil {
 	
 	
 	
-	// test
+	// test 테스트 메세지!
     public static CommonVO setPageUtil(CommonVO commonVO) {
  
     	CommonVO commonPageVO = new CommonVO();
