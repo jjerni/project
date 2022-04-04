@@ -17,7 +17,7 @@ public class LoggerInterceptor extends HandlerInterceptorAdapter {
     @SuppressWarnings("rawtypes")
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        logger.debug("==================== LoggerInterceptor START ====================");
+        logger.debug("==================== LoggerInterceptor START =========================");
         logger.debug(" URI [{}]," + request.getRequestURI());
  
         Enumeration paramNames = request.getParameterNames();
