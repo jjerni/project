@@ -36,5 +36,5 @@ public class HomeController {
 		return "home";
 		
 	}
-	
+	// 주석 수정 20220404_sr
 }
