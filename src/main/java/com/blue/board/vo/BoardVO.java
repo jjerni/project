@@ -265,4 +265,5 @@ public class BoardVO extends CommonVO {
         this.upd_date = upd_date;
     }
     */
+	/*¿Ã∞≈ πŸ≤„∫¡ø‰*/
 }
