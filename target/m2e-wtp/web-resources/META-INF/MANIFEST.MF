@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Built-By: bluebiznet
+Built-By: blue
 Build-Jdk: 1.8.0_281
 Created-By: Maven Integration for Eclipse
 

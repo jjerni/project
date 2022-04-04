@@ -126,5 +126,6 @@ public class BoardController {
     
     
     /*이거 바꿔 봤어요 컨트롤러 by 태경*/
+    /*뭐죠?*/
 }
 
