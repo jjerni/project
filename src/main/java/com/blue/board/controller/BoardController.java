@@ -28,7 +28,7 @@ public class BoardController {
         logger.debug("## boardList");
         
         
-        // 2022203232449 controller 占쌍쇽옙 占쌩곤옙
+        // 2022203232449 controller �뜝�뙇�눦�삕 �뜝�뙥怨ㅼ삕
         
         
         return "board/boardList";
@@ -50,14 +50,14 @@ public class BoardController {
         return resultUtil;
     }
     
-    /** 占쌉쏙옙占쏙옙 - 占쏙옙 占쏙옙占쏙옙占쏙옙 占싱듸옙 */
+    /** �뜝�뙃�룞�삕�뜝�룞�삕 - �뜝�룞�삕 �뜝�룞�삕�뜝�룞�삕�뜝�룞�삕 �뜝�떛�벝�삕 */
     @RequestMapping( value = "/boardDetail")
     public String boardDetail(HttpServletRequest request, HttpServletResponse response) throws Exception{
         
         return "board/boardDetail";
     }    
     
-    /** 占쌉쏙옙占쏙옙 - 占쏙옙 占쏙옙회  */
+    /** �뜝�뙃�룞�삕�뜝�룞�삕 - �뜝�룞�삕 �뜝�룞�삕�쉶  */
     @RequestMapping(value = "/getBoardDetail")
     @ResponseBody
     public BoardVO getBoardDetail(HttpServletRequest request, HttpServletResponse response, BoardVO boardVO) throws Exception {
@@ -69,14 +69,14 @@ public class BoardController {
         return boardDetVO;
     }
     
-    /** 占쌉쏙옙占쏙옙 - 占쌜쇽옙 占쏙옙占쏙옙占쏙옙 占싱듸옙 */
+    /** �뜝�뙃�룞�삕�뜝�룞�삕 - �뜝�뙗�눦�삕 �뜝�룞�삕�뜝�룞�삕�뜝�룞�삕 �뜝�떛�벝�삕 */
     @RequestMapping( value = "/boardWrite")
     public String boardWrite(HttpServletRequest request, HttpServletResponse response) throws Exception{
         
         return "board/boardWrite";
     }
     
-    /** 占쌉쏙옙占쏙옙 - 占쏙옙占� */
+    /** �뜝�뙃�룞�삕�뜝�룞�삕 - �뜝�룞�삕�뜝占� */
     @RequestMapping( value = "/insertBoard")
     @ResponseBody
     public BoardVO insertBoard(HttpServletRequest request, HttpServletResponse response, BoardVO boardVO) throws Exception{
@@ -90,7 +90,7 @@ public class BoardController {
         return boardInsVO;
     }
     
-    /** 占쌉쏙옙占쏙옙 - 占쏙옙占쏙옙 */
+    /** �뜝�뙃�룞�삕�뜝�룞�삕 - �뜝�룞�삕�뜝�룞�삕 */
     @RequestMapping( value = "/deleteBoard")
     @ResponseBody
     public BoardVO deleteBoard(HttpServletRequest request, HttpServletResponse response, BoardVO boardVO) throws Exception{
@@ -102,14 +102,14 @@ public class BoardController {
         return boardDelVO;
     }
     
-    /** 占쌉쏙옙占쏙옙 - 占쏙옙占쏙옙 占쏙옙占쏙옙占쏙옙 占싱듸옙 */
+    /** �뜝�뙃�룞�삕�뜝�룞�삕 - �뜝�룞�삕�뜝�룞�삕 �뜝�룞�삕�뜝�룞�삕�뜝�룞�삕 �뜝�떛�벝�삕 */
     @RequestMapping( value = "/boardUpdate")
     public String boardUpdate(HttpServletRequest request, HttpServletResponse response) throws Exception{
         
         return "board/boardUpdate";
     }
     
-    /** 占쌉쏙옙占쏙옙 - 占쏙옙占쏙옙 */
+    /** �뜝�뙃�룞�삕�뜝�룞�삕 - �뜝�룞�삕�뜝�룞�삕 */
     @RequestMapping( value = "/updateBoard")
     @ResponseBody
     public BoardVO updateBoard(HttpServletRequest request, HttpServletResponse response, BoardVO boardVO) throws Exception{
@@ -123,12 +123,6 @@ public class BoardController {
         
         return boardUpdVO;
     }
-    
-    
-    
-    
-    
-    
     
 }
 
