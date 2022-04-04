@@ -20,6 +20,8 @@ public class BoardVO extends CommonVO {
     Date upd_date;
     */
     
+	/*이거 바꿔 봤어요 vo by 태경*/
+	
 	int boardSeq;
     int boardReRef;
     int boardReLev;

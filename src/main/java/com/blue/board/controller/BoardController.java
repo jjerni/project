@@ -124,5 +124,7 @@ public class BoardController {
         return boardUpdVO;
     }
     
+    
+    /*이거 바꿔 봤어요 컨트롤러 by 태경*/
 }
 
